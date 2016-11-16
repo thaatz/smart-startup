@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SwithMailSettings>
+  <ServerSettings>
+    <FromName>Tom Hongs</FromName>
+    <FromAddress>thongsmatip@fosta-tek.com</FromAddress>
+    <Username>tomh</Username>
+    <Password>XyagQD1cp7oa9LPHZ4tvlQ==</Password>
+    <ObscurePassword>True</ObscurePassword>
+    <MailServer>mails</MailServer>
+    <MailServerPort />
+    <SSL>False</SSL>
+    <Encoding />
+    <RequestReceipt>False</RequestReceipt>
+  </ServerSettings>
+  <EmailAddresses>
+    <To>thongsmatip@fosta-tek.com</To>
+    <CC />
+    <BCC />
+    <ReplyTo />
+  </EmailAddresses>
+  <Attachments>
+    <AttachmentPath />
+  </Attachments>
+  <EmailContent>
+    <HTML>True</HTML>
+    <DontReplaceNewLine>False</DontReplaceNewLine>
+    <Subject>SMART caution on %COMPUTERNAME%</Subject>
+    <Body>CrystalDiskInfo detected issues on %computername%</Body>
+    <BodyTxtFile />
+  </EmailContent>
+</SwithMailSettings>
