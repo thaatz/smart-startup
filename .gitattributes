@@ -1,3 +1,6 @@
+bin/CdiLicense/* linguist-documentation
+bin/CdiResource/* linguist-vendored
+
 # Auto detect text files and perform LF normalization
 * text=auto
 
