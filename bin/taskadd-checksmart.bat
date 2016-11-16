@@ -16,8 +16,8 @@ REM for /F "delims=" %%a in (user) do set "user=%%a"
 REM del user
 
 REM Execute SchTasks.exe
+REM legacy option (for windows xp since /xml is vista+)
 REM using the /IT switch here is optional, as it will default this way anway
-SchTasks /Create /IT /SC DAILY /TN "smart-startup check smart" /TR "'%cd%\checksmart.bat'" /ST 14:00 /RU Users %runlevel%
-REM SchTasks /Create /SC MONTHLY /D 1 /TN "CCleaner Update" /TR "'%cd%\update.bat'" /ST 14:00 %runlevel%
-REM echo "%cd%\update.bat"
+REM SchTasks /Create /IT /SC DAILY /TN "smart-startup check smart" /TR "'%cd%\checksmart.bat'" /ST 14:00 /RU Users %runlevel%
+SchTasks /Create /XML "%cd%\bin\checksmart task.xml" /TN "smart-startup check smart"
 pause
