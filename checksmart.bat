@@ -20,4 +20,4 @@ if %errorlevel%==0 (
 	goto :error
 )
 echo all good
-pause
+REM pause
