@@ -16,4 +16,4 @@ echo    Done.
 
 rem things to look at
 REM chkdsk /perf
-pause
+REM pause
