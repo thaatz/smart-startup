@@ -11,3 +11,8 @@ this can be configured to send an email to someone or alert the user
 
 **checkdisk.bat** - schedule this to run once a month
 this will run chkdsk in read-only mode and if it finds an error, schedule a fix next time the computer reboots
+
+###other programs###
+* in general, just use crystaldiskinfo with startup and resident
+* speedfan is alright and gives a subjective fitness and performance report
+* gmsartcontrol is good if you want more granularity and want have custom alarms for all the other attributes (no one does this, its pointless)
