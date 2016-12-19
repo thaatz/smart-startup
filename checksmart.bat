@@ -11,6 +11,7 @@ if %errorlevel%==0 (
 	:: A SMART error was dectected
 	:error
 	title S.M.A.R.T. ALERT
+	color cf
 	cls
 	echo.
 	REM echo Disk health status: CAUTION
